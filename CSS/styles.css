@@ -33,3 +33,15 @@ img {
 .compare p {
 	text-indent: 20px;
 }
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: pink;
+}
