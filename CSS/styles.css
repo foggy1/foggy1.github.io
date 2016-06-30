@@ -1,4 +1,7 @@
 
+body {
+	background: #efefef;
+}
 h1 {
 	margin: 10px auto 10px auto;
 	border: 4px double black;
@@ -28,6 +31,13 @@ img {
 
 }
 
+.compare {
+	background-image: url("../images/silhouette.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 25%;
+
+}
+
 .compare h2 {
 	font-family: Arial, Verdana, sans-serif;
 	margin-left: 10px;
@@ -50,6 +60,6 @@ a:visited {
 }
 
 #page {
-	max-width: 940px;
+	max-width: 100%;
 	min-width: 50px;
 }
