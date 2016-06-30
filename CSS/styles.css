@@ -20,6 +20,14 @@ img {
 	max-width: 100%;
 }
 
+table {
+	border: 5px outset gray;
+}
+
+tr, th, td {
+	border: 2px solid black;
+}
+
 #intro:first-letter {
 	font-size: 200%;
 	text-shadow: 2px 2px 3px black;
