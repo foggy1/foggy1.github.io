@@ -86,3 +86,12 @@ a:visited {
 	margin: 5px 2px 5px 2px;
 
 }
+
+address {
+	text-align: center;
+	font-family: Georgia, Times, serif;
+	font-size: 18px;
+	font-style: normal;
+	margin-top: 10px;
+}
+
