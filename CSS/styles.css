@@ -55,8 +55,9 @@ tr, th, td {
 	text-indent: 20px;
 }
 
-a {
+a:link {
 	text-decoration: none;
+	color: blue;
 }
 
 a:hover {
@@ -70,4 +71,18 @@ a:visited {
 #page {
 	max-width: 100%;
 	min-width: 50px;
+}
+
+.credits {
+	line-height: 1.1em;
+	font-style: italic;
+	font-family: Courier, monospace;
+	font-size: 14px;
+	border-top: 2px dashed black;
+	padding-top: 5px;
+}
+
+.credits p {
+	margin: 5px 2px 5px 2px;
+
 }
