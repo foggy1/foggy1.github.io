@@ -95,3 +95,15 @@ address {
 	margin-top: 10px;
 }
 
+@media screen and (min-width: 1300px) {
+	.compare {
+		background-size: cover;
+	}
+}
+
+@media screen and (max-width: 625px) {
+	.compare {
+		background-size: auto 250%;
+		background-position: 50% 10%;
+	}
+}
