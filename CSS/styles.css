@@ -1,0 +1,109 @@
+
+body {
+	background: #efefef;
+}
+h1 {
+	margin: 10px auto 10px auto;
+	border: 4px double black;
+	padding: 10px 5px 10px 5px;
+	width: 500px;
+	text-align: center;
+	min-width: 50px;
+	max-width: 100%;
+}
+
+img {
+	display: block;
+	width: 720px;
+	margin: 5px auto 5px auto;
+	min-width: 50px;
+	max-width: 100%;
+}
+
+table {
+	border: 5px outset gray;
+}
+
+tr, th, td {
+	border: 2px solid black;
+}
+
+#intro:first-letter {
+	font-size: 200%;
+	text-shadow: 2px 2px 3px black;
+}
+
+#intro {
+	text-align: center;
+	margin: 5px auto 5px auto;
+
+}
+
+.compare {
+	background-image: url("../images/silhouette.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 25%;
+
+}
+
+.compare h2 {
+	font-family: Arial, Verdana, sans-serif;
+	margin-left: 10px;
+}
+
+.compare p {
+	text-indent: 20px;
+}
+
+a:link {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: orange;
+}
+
+#page {
+	max-width: 100%;
+	min-width: 50px;
+}
+
+.credits {
+	line-height: 1.1em;
+	font-style: italic;
+	font-family: Courier, monospace;
+	font-size: 14px;
+	border-top: 2px dashed black;
+	padding-top: 5px;
+}
+
+.credits p {
+	margin: 5px 2px 5px 2px;
+
+}
+
+address {
+	text-align: center;
+	font-family: Georgia, Times, serif;
+	font-size: 18px;
+	font-style: normal;
+	margin-top: 10px;
+}
+
+@media screen and (min-width: 1300px) {
+	.compare {
+		background-size: cover;
+	}
+}
+
+@media screen and (max-width: 625px) {
+	.compare {
+		background-size: auto 250%;
+		background-position: 50% 10%;
+	}
+}
