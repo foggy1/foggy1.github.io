@@ -17,6 +17,19 @@ body {
   min-width: 960px;
 }
 
+/*Putting site-specific CSS here*/
+
+#home {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+}
+
+#home:hover {
+  color: orange;
+}
+
 /* `Container
 ----------------------------------------------------------------------------------------------------*/
 
