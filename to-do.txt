@@ -1,0 +1,7 @@
+1. Now that I have url and baseurl correct, I need to take advantage of them and
+    string them together wherever possible.  So, currently, in a lot of places, I have
+    site.url, but that's now going to break absolutely everything all over the place since
+    'blog' will be missing.  I need to jam those together.
+
+2. Now that I know how those are supposed to be separated out, there's other things I can fix
+    but I'm too damn tired to think about what they are.
