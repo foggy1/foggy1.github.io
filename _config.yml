@@ -7,8 +7,8 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
-baseurl: /blog
-domain_name: 'https://foggy1.github.io/blog/'
+baseurl: /
+domain_name: 'https://foggy1.github.io/'
 google_analytics: 'UA-80918633-1'
 gems: [jekyll-paginate]
 

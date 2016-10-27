@@ -1,7 +1,6 @@
 ---
-layout: default
-title: Home
-cover: false
+layout: page
+title: Blog
 about: 'about.html'
 blog: 'blog.html'
 ---
@@ -13,7 +12,6 @@ blog: 'blog.html'
                     <img src="{{ page.logo }}" alt="Blog Logo" />
                 </a>
             {% endif %}
-        <a href='{{ site.baseurl }}/{{ page.about }}'> About</a>
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}/feed.xml">Subscribe</a>
     </nav>
     <div class="vertical">
@@ -22,6 +20,7 @@ blog: 'blog.html'
             <h2 class="page-description">
                 {% if site.description %} {{ site.description }}. {% endif %}
                 {% if page.blog %} <a href='{{ site.baseurl }}/{{ page.blog }}'> Hi there.</a> {% endif %}
+                {% if page.about %} <a href='{{ site.baseurl }}/{{ page.about }}'> Hi there.</a> {% endif %}
             </h2>
         </div>
     </div>

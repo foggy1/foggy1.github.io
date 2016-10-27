@@ -3,57 +3,11 @@
   <channel>
     <title></title>
     <description>Comics &amp; Coding</description>
-    <link>https://foggy1.github.io/blog/</link>
-    <atom:link href="https://foggy1.github.io/blogfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Jul 2016 01:19:12 -0400</pubDate>
-    <lastBuildDate>Sun, 24 Jul 2016 01:19:12 -0400</lastBuildDate>
+    <link>https://foggy1.github.io//</link>
+    <atom:link href="https://foggy1.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 26 Oct 2016 21:46:15 -0400</pubDate>
+    <lastBuildDate>Wed, 26 Oct 2016 21:46:15 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
-    
-      <item>
-        <title>The Gold In Us</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/images/supes/supes.jpg&quot; alt=&quot;Earth Q&#39;s Man of Steel&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Going into &lt;em&gt;All-Star Superman&lt;/em&gt; I knew I was going to enjoy the work: I’ve been slowly working my way through Morrison’s superhero stuff, and given my friends’ reactions to the work as well as the high esteem in which Morrison himself appears to hold this work and Superman in general– well, I knew it was going to be good.&lt;/p&gt;
-
-&lt;p&gt;But it was transcendent.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;All-Star Superman&lt;/em&gt; is rife with symbolism, the tale of the last days of Superman in the form of a monolithic sun deity myth.  It’s been praised mainly for its intricate “literary” structure (whatever the hell that means) and its reimagining/distilling of the Superman mythos.  That’s all great (really, I can’t say enough good things), but something else grabbed me.  Or I should say, someone else.&lt;/p&gt;
-
-&lt;h2 id=&quot;good-morning-worm-your-honor&quot;&gt;“Good Morning, Worm Your Honor”&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/assets/images/supes/babyima.jpg&quot; alt=&quot;Luthor_on_trial&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To nobody’s surprise, Morrison’s work on Luthor is triumphant. Yet what is striking about this work is not only the man himself, but the way in which Morrison unpacks Luthor’s mindset with regards to Superman. Morrison, in just a handful of issues, covers some &lt;em&gt;incredibly&lt;/em&gt; dense philosophical ground throughout this process. In one of my favorite sequences in the entire book, Clark enters the prison in which Luthor is being held in order to cover his last days for the Planet.&lt;/p&gt;
-
-&lt;p&gt;Here Morrison also excels, with tons of help from the somehow-underrated Quietly, at depicting Clark Kent. In this book, when Superman is dressed up as Clark Kent, he &lt;em&gt;is&lt;/em&gt; Clark Kent, and it’s never more apparent than when he is tip-toeing around, stumbling, bumbling, almost visibly humbled by being in Luthor’s presence.  What truly makes these sequences great are the quick moments in which Clark must become Superman in order to save people: the transformation is complete, his benevolence made absolute in these faster-than-light flashes of do-goodery that must simultaneously be hidden from Luthor’s eyes.  The fact that the division between Clark and Superman is rendered visually as so absolute and yet transitions between the two personas can happen in less than the blink of an eye and that Luthor is never, ever, any the wiser– it is the most powerful rendering of Kal-El I could imagine.&lt;/p&gt;
-
-&lt;p&gt;Things take a turn towards what I find truly interesting in this sequence:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/assets/images/supes/find_it_odd.jpg&quot; alt=&quot;Luthor Ponders&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;And you don’t feel in &lt;em&gt;any&lt;/em&gt; way &lt;em&gt;diminished&lt;/em&gt; by his very &lt;em&gt;presence&lt;/em&gt; on this planet? Strange.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s no mystery that Luthor takes issue with Superman’s mere existence on the planet earth.  Obviously it’s not about the fact that Superman is a threat, or that he does good, or that he does bad: it’s the mere &lt;em&gt;fact&lt;/em&gt; of his existence that is upsetting to Luthor, and it’s because he feels “diminished” by that simple ontological fact.&lt;/p&gt;
-
-&lt;p&gt;But &lt;strong&gt;why?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;So often, be it in simple discussions, or in the zeitgeist, or in outright explications of Luthor and asinine comparisons to Trump and his ilk, this is a question that does not get asked.  &lt;strong&gt;Why does Luthor feel diminished by the basic spatio-temporal fact that Superman is located on his planet?&lt;/strong&gt;  So often people assume he’s just some kind of irrational racist; that his xenophobia bottoms out in the same kind of fear that we all have of people who pose some kind of threat to us, even though they do not pose a threat.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/assets/images/supes/real_work.jpg&quot; alt=&quot;Luthor&#39;s Reasons&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 20 Jul 2016 06:00:00 -0400</pubDate>
-        <link>https://foggy1.github.io/blog/comics/superman/2016/07/20/The-Gold-In-Us.html</link>
-        <guid isPermaLink="true">https://foggy1.github.io/blog/comics/superman/2016/07/20/The-Gold-In-Us.html</guid>
-        
-        
-        <category>Comics</category>
-        
-        <category>Superman</category>
-        
-      </item>
     
       <item>
         <title>Troubleshooting Jekyll</title>
@@ -80,8 +34,8 @@
 &lt;p&gt;Yes, it took longer than I’d like to admit to come to the simple realization that “foggy1.github.io/blog” (the homepage) should link to “foggy1.github.io/blog/[a post or a page]” and vice versa.  Even a single dropped “/blog” prepended to a single HTML link or page permalink would mean the whole site wasn’t really working right.  Helping myself to the baseurl attribute allowed me to keep things consistent as well as normalize how things fit together locally as well as remotely.&lt;/p&gt;
 </description>
         <pubDate>Sun, 17 Jul 2016 21:10:00 -0400</pubDate>
-        <link>https://foggy1.github.io/blog/jekyll/coding/2016/07/17/Testing-This-Damn-Thing.html</link>
-        <guid isPermaLink="true">https://foggy1.github.io/blog/jekyll/coding/2016/07/17/Testing-This-Damn-Thing.html</guid>
+        <link>https://foggy1.github.io//jekyll/coding/2016/07/17/Testing-This-Damn-Thing.html</link>
+        <guid isPermaLink="true">https://foggy1.github.io//jekyll/coding/2016/07/17/Testing-This-Damn-Thing.html</guid>
         
         
         <category>Jekyll</category>
