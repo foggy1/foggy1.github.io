@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>Comics &amp; Coding</description>
-    <link>https://foggy1.github.io//</link>
-    <atom:link href="https://foggy1.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Oct 2016 21:46:15 -0400</pubDate>
-    <lastBuildDate>Wed, 26 Oct 2016 21:46:15 -0400</lastBuildDate>
+    <link>https://foggy1.github.io/</link>
+    <atom:link href="https://foggy1.github.iofeed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 26 Oct 2016 22:10:01 -0400</pubDate>
+    <lastBuildDate>Wed, 26 Oct 2016 22:10:01 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -34,8 +34,8 @@
 &lt;p&gt;Yes, it took longer than I’d like to admit to come to the simple realization that “foggy1.github.io/blog” (the homepage) should link to “foggy1.github.io/blog/[a post or a page]” and vice versa.  Even a single dropped “/blog” prepended to a single HTML link or page permalink would mean the whole site wasn’t really working right.  Helping myself to the baseurl attribute allowed me to keep things consistent as well as normalize how things fit together locally as well as remotely.&lt;/p&gt;
 </description>
         <pubDate>Sun, 17 Jul 2016 21:10:00 -0400</pubDate>
-        <link>https://foggy1.github.io//jekyll/coding/2016/07/17/Testing-This-Damn-Thing.html</link>
-        <guid isPermaLink="true">https://foggy1.github.io//jekyll/coding/2016/07/17/Testing-This-Damn-Thing.html</guid>
+        <link>https://foggy1.github.io/jekyll/coding/2016/07/17/Testing-This-Damn-Thing.html</link>
+        <guid isPermaLink="true">https://foggy1.github.io/jekyll/coding/2016/07/17/Testing-This-Damn-Thing.html</guid>
         
         
         <category>Jekyll</category>
