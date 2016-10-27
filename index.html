@@ -55,6 +55,7 @@ blog: '/blog'
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
             </time> 
+
         </footer>
     </article>
 
@@ -78,5 +79,4 @@ blog: '/blog'
     {% endfor %}
 
     {% include pagination.html %}
-
 </main>

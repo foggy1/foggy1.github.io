@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Coding & Comics</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- _includes/base.html -->
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <!-- Customisation  -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+
+</head>
+<body class="home-template">
+
+    <header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        <a class="back-button icon-arrow-left" href="/">Home</a>
+        <a class="subscribe-button icon-feed" href="https://foggy1.github.io/feed.xml">Subscribe</a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">Convention over Configuration... ish</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2016-10-26">26 Oct 2016</time>
+                
+                    on Coding, DBC, Rails, and Node
+                
+            </section>
+        </header>
+
+<!--         <header class="post-header">
+            <a id="blog-logo" href="https://foggy1.github.io">
+                
+                    <span class="blog-title">Coding & Comics</span>
+                
+            </a>
+        </header> -->
+
+        <!-- <span class="post-meta">
+            <time datetime="2016-10-26">26 Oct 2016</time>
+            
+                on Coding, DBC, Rails, and Node
+            
+        </span> -->
+
+        <!-- <h1 class="post-title">Convention over Configuration... ish</h1> -->
+
+        <section class="post-content">
+            <p>“Should we just move our project to Node?”</p>
+
+<p>What I thought would be famous last words turned out to be one of the most satisfying days I had as a programmer.  At Dev Bootcamp, we were taught a very… Ruby-ish stack.  Javascript permeated our projects (with an emphasis on jQuery in phase 2 and React in phase 3), but the foundation of our projects was always one stacked on conventions and not configurations.</p>
+
+<p>Despite all of this, our app <a href="http://state-matters.com" target="_blank">State Matters</a> doesn’t require a <strong>single</strong> trick out of Rails’ very, very large hat.  So why were we using Rails?  “Let’s timebox learning Node to two-and-a-half-hours”, says my overly persuasive teammate.  Despite being project lead (or perhaps because of it) I felt inclined to take the risk and slim down our project while taking advantage of new technology.  Two-and-a-half hours seemed reasonable.  Mind you we had five days to build this app from scratch and this was prime-time, day two.</p>
+
+<h3 id="nine-hours-later">Nine hours later.</h3>
+
+<p>Ok, ok, sorry.</p>
+
+<h3 id="nine-irritating-hours-later">Nine irritating hours later.</h3>
+
+<p>There we go.</p>
+
+<p>Despite some guidance from a friend from the Grace Hopper Academy, taking all of our React components out of Rails was proving to be a configuration nightmare.  What type of person knows the arcane wizardry required to include dependencies in the proper files <strong>manually?</strong></p>
+
+<p>I won’t harp too much on the pitfalls of the ‘convention over configuration’ mindset, but we were, at a minimum, inconveniently hamstrung by our reliance on Rails.  Eventually, though, we did figure out the minutiae of configuring Webpack and Express in Node.js (and it wasn’t all that hard) and were then able to copy over our react-rails components into vanilla React.js with literally no changes beyond exporting the components.</p>
+
+<p>The fact is that learning things on Ruby’s level of abstraction– from built-in enumerable methods all the way up to Rails, the ultimate in “no, let me get that for you” –proved <strong>really great</strong> for us.  Sure, it gives you a slow start-up time on configuration-heavy technologies (read: <em>everything else</em>), but it gave all of us something much more important: a point of reference.</p>
+
+<p>If you’re going to learn in an accelerated environment, now having been through it myself, it strikes me as obviously true that getting bogged down in configuration is a waste of your time.  You could, instead, be growing your skills overall, constantly exposing your ignorance and rising to new challenges, all while obtaining frames of reference for all kinds of different scopes of technology.  Sure, you’ll have to do a little more digging and memory refreshing when you have to set up that Express server or hear about how C allocates memory or something; but, and excuse the candidness, <em>you can <strong>do</strong> shit</em>.  You can still build whatever you want in the frameworks you’re comfortable with while you dig deep and learn the new stuff.</p>
+
+<p>The more I utilize the flexibility of Javascript and circle the skies eyeing all kinds of other frameworks, the more the ‘convention over configuration’ attitude bugs me.  But the whole entire reason my team and I were able to learn Node.js in a day and redeploy our projection was specifically because conventions helped us build a solid core of learning skills quickly, and now nothing is stopping us except time.</p>
+
+<p>Well, time and semi-colons.</p>
+
+        </section>
+
+        
+
+        <footer class="post-footer">
+            <!-- If we want to display author's name and bio -->
+            
+                <figure class="author-image">
+                <!-- _includes/base.html -->
+
+
+
+
+                    <a class="img" href="" style="background-image: url(/assets/images/blogprofile1.jpg)">
+                                        <span class="hidden">Austin Lanari's Picture</span></a>}
+                </figure>
+                <section class="author">
+                    <!-- Author Name -->
+                    <h4> Austin Lanari </h4>
+                    <!-- Author Bio -->
+                    <p>
+                        Ruby lover. Javascript apologist. Concerned about the public good and all the comics I haven't read.  In that order.  Maybe...
+                    </p>
+                </section>
+            
+
+            <!-- Share links section -->
+            <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-twitter" href="http://twitter.com/share?text=Convention over Configuration... ish&amp;url=https://foggy1.github.io//coding/dbc/rails/node/2016/10/26/Convention-and-Configuration.html"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://foggy1.github.io//coding/dbc/rails/node/2016/10/26/Convention-and-Configuration.html"
+        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=https://foggy1.github.io//coding/dbc/rails/node/2016/10/26/Convention-and-Configuration.html"
+       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <span class="hidden">Google+</span>
+    </a>
+</section>
+
+            <!-- Disqus comments -->
+            
+
+        </footer>
+
+    </article>
+
+</main>
+    <footer class="site-footer clearfix">
+      <section class="copyright">
+        <a href="">Coding & Comics</a> &copy; 
+               &bull; All rights reserved.
+      </section>
+      <section class="poweredby">Made with Jekyll using 
+        <a href="http://github.com/rosario/kasper">Kasper theme</a>
+      </section>
+    </footer>
+    
+    <script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+
+    <!-- Google Analytics Tracking code -->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-80918633-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>   
+</body>
+</html>
