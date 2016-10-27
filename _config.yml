@@ -1,7 +1,7 @@
 
-name: Austin Lanari
-description: Comics & Coding
-meta_description: "Foggy's blog, for building blogs, and blogging on blogs"
+name: Coding & Comics
+# description: Ruby lover. Javascript Apologist.
+# meta_description: "Foggy's blog, for building blogs, and blogging on blogs"
 
 markdown: kramdown
 highlighter: rouge

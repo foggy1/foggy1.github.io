@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description>Comics &amp; Coding</description>
+    <description></description>
     <link>https://foggy1.github.io/</link>
     <atom:link href="https://foggy1.github.iofeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Oct 2016 22:10:01 -0400</pubDate>
-    <lastBuildDate>Wed, 26 Oct 2016 22:10:01 -0400</lastBuildDate>
+    <pubDate>Wed, 26 Oct 2016 23:05:34 -0400</pubDate>
+    <lastBuildDate>Wed, 26 Oct 2016 23:05:34 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>

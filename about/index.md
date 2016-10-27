@@ -3,6 +3,7 @@ layout: page
 title: Hi there.
 ---
 
+<img src="/assets/images/animal_style.jpg" width="200">
 I'm Austin.  I've got a Master's in Philosophy and I use the analytic gifts it gave me to write about comic books for several websites and also, sometimes, to ponder the implications of moral and political obligation. Sometimes.
 
 I built this site using Github Pages and Jekyll, helping myself to a Jekyll port, [Kasper][kasper link], of Ghost's default layout, Casper.  I'm currently attending Dev Bootcamp, so what better way to force myself to tinker with front-end stuff than to put my writing someplace that *I* have to maintain?
