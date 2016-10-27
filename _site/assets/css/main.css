@@ -61,3 +61,7 @@
 .highlight .vg { color: #008080; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #009999; }
+
+.main-header { max-height: 500px; }
+
+.main-header-content a { color: black; }
