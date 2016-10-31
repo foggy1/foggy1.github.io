@@ -13,13 +13,6 @@
 	"syntax"
 ;
 
-.parallax { 
-    background-image: url("/assets/images/header.jpg");
-
-    height: 500px; 
-
-    background-attachment: fixed;
-    background-position: 0% 75%;
-    background-repeat: no-repeat;
-    background-size: cover;
+.main-header {
+  max-height: 500px;
 }
