@@ -1,30 +1,29 @@
 ---
 layout: default
 title: Home
-cover: '/assets/images/header.jpg'
 about: '/about'
 blog: '/blog'
 ---
 
-<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
-    <nav class="main-nav overlay clearfix">
-            {% if page.logo %}
-                <a class="blog-logo" href="/">
-                    <img src="{{ page.logo }}" alt="Blog Logo" />
-                </a>
-            {% endif %}
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}/feed.xml">Subscribe</a>
-        <a class="subscribe-button" href='/about'>About me</a> 
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
-            <h2 class="page-description">
-                {% if site.description %} {{ site.description }}. {% endif %}
+    <header class="main-header parallax">
+        <nav class="main-nav overlay clearfix">
+                {% if page.logo %}
+                    <a class="blog-logo" href="/">
+                        <img src="{{ page.logo }}" alt="Blog Logo" />
+                    </a>
+                {% endif %}
+            <a class="subscribe-button icon-feed" href="{{ site.baseurl }}/feed.xml">Subscribe</a>
+            <a class="subscribe-button" href='/about'>About me</a> 
+        </nav>
+        <div class="vertical">
+            <div class="main-header-content inner">
+                <h1 class="page-title">{{ site.name }}</h1>
+                <h2 class="page-description">
+                    {% if site.description %} {{ site.description }}. {% endif %}
+            </div>
         </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-</header>
+        <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+    </header>
 
 
 <main id="content" class="content" role="main">
