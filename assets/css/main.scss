@@ -13,10 +13,13 @@
 	"syntax"
 ;
 
-.main-header {
-  max-height: 500px;
-}
+.parallax { 
+    background-image: url("/assets/images/header.jpg");
 
-.main-header-content a {
-  color: black;
+    height: 500px; 
+
+    background-attachment: fixed;
+    background-position: 0% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
