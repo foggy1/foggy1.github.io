@@ -5,8 +5,8 @@
     <description></description>
     <link>https://foggy1.github.io/</link>
     <atom:link href="https://foggy1.github.iofeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 27 Oct 2016 01:00:44 -0400</pubDate>
-    <lastBuildDate>Thu, 27 Oct 2016 01:00:44 -0400</lastBuildDate>
+    <pubDate>Mon, 31 Oct 2016 14:50:19 -0400</pubDate>
+    <lastBuildDate>Mon, 31 Oct 2016 14:50:19 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -33,7 +33,7 @@
 
 &lt;p&gt;If you’re going to learn in an accelerated environment, now having been through it myself, it strikes me as obviously true that getting bogged down in configuration is a waste of your time.  You could, instead, be growing your skills overall, constantly exposing your ignorance and rising to new challenges, all while obtaining frames of reference for all kinds of different scopes of technology.  Sure, you’ll have to do a little more digging and memory refreshing when you have to set up that Express server or hear about how C allocates memory or something; but, and excuse the candidness, &lt;em&gt;you can &lt;strong&gt;do&lt;/strong&gt; shit&lt;/em&gt;.  You can still build whatever you want in the frameworks you’re comfortable with while you dig deep and learn the new stuff.&lt;/p&gt;
 
-&lt;p&gt;The more I utilize the flexibility of Javascript and circle the skies eyeing all kinds of other frameworks, the more the ‘convention over configuration’ attitude bugs me.  But the whole entire reason my team and I were able to learn Node.js in a day and redeploy our projection was specifically because conventions helped us build a solid core of learning skills quickly, and now nothing is stopping us except time.&lt;/p&gt;
+&lt;p&gt;The more I utilize the flexibility of Javascript and circle the skies eyeing all kinds of other frameworks, the more the ‘convention over configuration’ attitude bugs me.  But the whole entire reason my team and I were able to learn Node.js in a day and redeploy our project was specifically because conventions helped us build a solid core of learning skills quickly, and now nothing is stopping us except time.&lt;/p&gt;
 
 &lt;p&gt;Well, time and semi-colons.&lt;/p&gt;
 </description>
