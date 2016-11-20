@@ -59,6 +59,10 @@
 
         $(".scroll-down").arctic_scroll();
 
+        // custom code!
+
+        
+
     });
 
     // smartresize

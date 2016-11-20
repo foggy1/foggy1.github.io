@@ -497,6 +497,26 @@ margin on the iframe, cause it breaks stuff. */
     color: black;
 }
 
+.sub-nav {
+    position: relative;
+    padding: 10px 20px;
+    margin: 0 0 0 0;
+    /*border-bottom: 1px solid gray;*/
+}
+
+.sub-nav a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 8px;
+}
+
+.active {
+    border: 1px solid gray;
+    border-radius: 4px;
+    background: lightslategray;
+    color: white;
+}
+
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
     display: block;

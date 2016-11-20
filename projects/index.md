@@ -2,7 +2,12 @@
 layout: page
 title: Projects
 ---
-***
+<nav class="sub-nav clearfix">
+    <a class="active" href="#">State Matters</a>
+    <a class="" href="#">Eve Postmaster</a>
+</nav>
+
+<span class="stateMatters">
 
 # State Matters
 
@@ -21,6 +26,10 @@ You're busy and the data is all out there.  So nobody should have to jump throug
 
 ***
 
+</span>
+
+<span class="evePost">
+
 # Eve Postmaster
 
 ![eve-postmaster](/assets/images/eve-postmaster.png){:class="img-responsive"}
@@ -36,3 +45,5 @@ Secondly, you'll notice the prominence of the contact list and the available fil
 Thirdly, with Eve Postmaster, for the very first time on a third-party service, you can populate a mail from *anywhere* using your cell phone.  For those who know how prevalent away-from-keyboard gameplay is (or just, you know, literally being logged in all day), being able to draft a mail on the fly from anywhere is a serious boon.  Important mails can be drafted remotely throughout the day for conducting serious spaceship business.
 
 My goal is to make the mail sending experience as streamlined as possible before converting this into a full-fledged mail client.  But the capability is there given the API, and I'm hoping over time that feedback from the Eve Online community will allow me to really flesh out the usefulness of this app.
+
+</span>
