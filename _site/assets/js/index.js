@@ -63,7 +63,13 @@
 
         $(".sub-nav").children("a").click(function(e){
             e.preventDefault();
-            debugger;
+            if ($(this).attr("class") === "active") { return null }
+            $(this).addClass("active")
+            $(this).siblings(".active").removeClass("active")
+            // if ($(this).text() === "Eve Postmaster") {
+            //     $(this).addClass("active")
+            //     $(this).siblings(".active").
+            // }
         })
 
     });
