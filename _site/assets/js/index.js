@@ -61,7 +61,10 @@
 
         // custom code!
 
-        
+        $(".sub-nav").children("a").click(function(e){
+            e.preventDefault();
+            debugger;
+        })
 
     });
 

@@ -7,7 +7,8 @@ title: Projects
     <a class="" href="#">Eve Postmaster</a>
 </nav>
 
-<span class="stateMatters">
+{::options parse_block_html="true" /}
+<div class="stateMatters">
 
 # State Matters
 
@@ -24,11 +25,10 @@ You're busy and the data is all out there.  So nobody should have to jump throug
 * Fully grasping doing things the "React" way and navigating dom manipulation during the React lifecycle.
 * Maintaining the site through API server upgrades.
 
-***
 
-</span>
+</div>
 
-<span class="evePost">
+<div class="evePost">
 
 # Eve Postmaster
 
@@ -46,4 +46,4 @@ Thirdly, with Eve Postmaster, for the very first time on a third-party service, 
 
 My goal is to make the mail sending experience as streamlined as possible before converting this into a full-fledged mail client.  But the capability is there given the API, and I'm hoping over time that feedback from the Eve Online community will allow me to really flesh out the usefulness of this app.
 
-</span>
+</div>
