@@ -59,6 +59,22 @@
 
         $(".scroll-down").arctic_scroll();
 
+        // custom code!
+
+        $(".sub-nav").children("a").click(function(e){
+            e.preventDefault();
+            if ($(this).attr("class") === "active") { return null }
+            $(this).addClass("active")
+            $(this).siblings(".active").removeClass("active")
+            if ($(this).text() === "Eve Postmaster") {
+                $(".evePost").css("display", "block")
+                $(".stateMatters").css("display", "none")
+            } else {
+                $(".stateMatters").css("display", "block")
+                $(".evePost").css("display", "none")
+            }
+        })
+
     });
 
     // smartresize
