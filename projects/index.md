@@ -63,10 +63,14 @@ PHP Todo is a standard little CRUD app built on a LAMP stack using Laravel and V
 
 When I started, I had a year's experience with Ubuntu (it's been my preferred operating system for exactly that long) and had worked with MySQL pretty extensively.  But configuring Apache, writing PHP (*any* PHP), using Laravel, and building a Vue.js front-end were all **completely** new experiences.
 
-Folks talk a lot of trash about PHP, but if I learned anything from building this app, it's that 
+## Biggest Challenges
 
-The jury's still out on whether or not I prefer Vue.js to React.js; based on documentation at the moment, React certainly takes the cake.  Despite being more flexible than React in some cool ways, with the ability to be as terse as Angular.js if the user so desires, and with an even slimmer build, I'm not so sure that Vue.js knows what kind of framework it wants to be yet.
+* Configuring a server to serve an app remotely.  Ultimately not so bad, but very new compared to Heroku and Jekyll magic.
+* Navigating poor and often deprecated documentation about Vue.js.
+* Understanding the constraints of PHP.
+* Figuring out exactly what kind of things Laravel was doing for me in the background, like auth and dependency injection.
 
+Read more about my experience building this app [here](/php/laravel/vue/2016/12/04/The-PHP-Rabbit-Hole.html)
 
 
 </div>
