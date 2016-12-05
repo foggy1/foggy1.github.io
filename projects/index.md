@@ -5,6 +5,7 @@ title: Projects
 <nav class="sub-nav clearfix">
     <a class="active" href="#">State Matters</a>
     <a class="" href="#">Eve Postmaster</a>
+    <a class="" href="#"> PHP Todo</a>
 </nav>
 
 ***
@@ -47,5 +48,29 @@ Secondly, you'll notice the prominence of the contact list and the available fil
 Thirdly, with Eve Postmaster, for the very first time on a third-party service, you can populate a mail from *anywhere* using your cell phone.  For those who know how prevalent away-from-keyboard gameplay is (or just, you know, literally being logged in all day), being able to draft a mail on the fly from anywhere is a serious boon.  Important mails can be drafted remotely throughout the day for conducting serious spaceship business.
 
 My goal is to make the mail sending experience as streamlined as possible before converting this into a full-fledged mail client.  But the capability is there given the API, and I'm hoping over time that feedback from the Eve Online community will allow me to really flesh out the usefulness of this app.
+
+</div>
+
+<div class="phpTodo">
+
+# PHP Todo
+
+![php-todo](/assets/images/php-todo.png){:class="img-responsive"}
+
+Ok, so not my best title.
+
+PHP Todo is a standard little CRUD app built on a LAMP stack using Laravel and Vue.js.  From start to finish this has been a major exercise in learning.
+
+When I started, I had a year's experience with Ubuntu (it's been my preferred operating system for exactly that long) and had worked with MySQL pretty extensively.  But configuring Apache, writing PHP (*any* PHP), using Laravel, and building a Vue.js front-end were all **completely** new experiences.
+
+## Biggest Challenges
+
+* Configuring a server to serve an app remotely.  Ultimately not so bad, but very new compared to Heroku and Jekyll magic.
+* Navigating poor and often deprecated documentation about Vue.js.
+* Understanding the constraints of PHP.
+* Figuring out exactly what kind of things Laravel was doing for me in the background, like auth and dependency injection.
+
+Read more about my experience building this app [here](/php/laravel/vue/2016/12/04/The-PHP-Rabbit-Hole.html)
+
 
 </div>
