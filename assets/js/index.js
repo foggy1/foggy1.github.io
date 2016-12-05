@@ -69,10 +69,16 @@
             if ($(this).text() === "Eve Postmaster") {
                 $(".evePost").css("display", "block")
                 $(".stateMatters").css("display", "none")
-            } else {
+                $(".phpTodo").css("display", "none")
+            } else if ($(this).text() === "State Matters") {
                 $(".stateMatters").css("display", "block")
                 $(".evePost").css("display", "none")
-            }
+                $(".phpTodo").css("display", "none")
+            } else {
+                $(".phpTodo").css("display", "block")
+                $(".stateMatters").css("display", "none")
+                $(".evePost").css("display", "none")
+            }   
         })
 
     });
