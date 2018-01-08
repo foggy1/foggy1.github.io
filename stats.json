@@ -1,0 +1,76 @@
+{
+  "assetsByChunkName": {
+    "path---tags-personal": [
+      "path---tags-personal-21bb49ce4eebfdec6af1.js",
+      "path---tags-personal-21bb49ce4eebfdec6af1.js.map"
+    ],
+    "path---": [
+      "path----6611940bd40871b680a6.js",
+      "path----6611940bd40871b680a6.js.map"
+    ],
+    "component---src-layouts-index-jsx": [
+      "component---src-layouts-index-jsx-9732eb7de7bb7b6dfa65.js",
+      "component---src-layouts-index-jsx-9732eb7de7bb7b6dfa65.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-f2981d21be31b3663cca.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-f2981d21be31b3663cca.js.map"
+    ],
+    "component---src-templates-category-jsx": [
+      "component---src-templates-category-jsx-3a50fee79b9519c47f96.js",
+      "component---src-templates-category-jsx-3a50fee79b9519c47f96.js.map"
+    ],
+    "path---work-in-progress": [
+      "path---work-in-progress-3deebf34289dac811df7.js",
+      "path---work-in-progress-3deebf34289dac811df7.js.map"
+    ],
+    "path---tags-web-design": [
+      "path---tags-web-design-1fa7bd234c8266450b82.js",
+      "path---tags-web-design-1fa7bd234c8266450b82.js.map"
+    ],
+    "path---index": [
+      "path---index-e72e35501fa326c319e6.js",
+      "path---index-e72e35501fa326c319e6.js.map"
+    ],
+    "component---src-pages-about-jsx": [
+      "component---src-pages-about-jsx-16dca089dee574aef9ce.js",
+      "component---src-pages-about-jsx-16dca089dee574aef9ce.js.map"
+    ],
+    "commons": [
+      "commons-843d9172b51da034dd8f.js",
+      "build-js-styles.css",
+      "commons-843d9172b51da034dd8f.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-templates-tag-jsx": [
+      "component---src-templates-tag-jsx-6d724a4bbcff12c3ea7c.js",
+      "component---src-templates-tag-jsx-6d724a4bbcff12c3ea7c.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js",
+      "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js.map"
+    ],
+    "component---src-templates-post-jsx": [
+      "component---src-templates-post-jsx-a91f15ec9afbde308139.js",
+      "component---src-templates-post-jsx-a91f15ec9afbde308139.js.map"
+    ],
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-cb83da5746d9129c5bb8.js",
+      "component---src-pages-index-jsx-cb83da5746d9129c5bb8.js.map"
+    ],
+    "app": [
+      "app-faa64d5e2ec3f85f5a9e.js",
+      "build-js-styles.css",
+      "app-faa64d5e2ec3f85f5a9e.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---categories-site": [
+      "path---categories-site-d94311925c6474dce112.js",
+      "path---categories-site-d94311925c6474dce112.js.map"
+    ],
+    "path---about": [
+      "path---about-586c7e095e534a3909ec.js",
+      "path---about-586c7e095e534a3909ec.js.map"
+    ]
+  }
+}
