@@ -1,7 +1,7 @@
 {
-  "name": "foggy1.github.io",
+  "name": "personal-gatsby",
   "description": "Austin Lanari's professional website.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Austin Lanari <austin.lanari@gmail.com>",
   "dependencies": {
     "babel-plugin-lodash": "^3.3.2",
