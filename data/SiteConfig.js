@@ -20,19 +20,24 @@ module.exports = {
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/austin-lanari/",
+      iconClassName: "linkedin"
+    },
+    {
       label: "GitHub",
       url: "https://github.com/foggy1",
-      iconClassName: "fa fa-github"
+      iconClassName: "github-alt"
     },
     {
       label: "Twitter",
       url: "https://twitter.com/AustinLanari",
-      iconClassName: "fa fa-twitter"
+      iconClassName: "twitter"
     },
     {
       label: "Email",
       url: "mailto:austin.lanari@gmail.com",
-      iconClassName: "fa fa-envelope"
+      iconClassName: "envelope"
     }
   ],
   copyright: "Copyright © 2017. Austin Lanari", // Copyright string for the footer of the website and RSS feed.

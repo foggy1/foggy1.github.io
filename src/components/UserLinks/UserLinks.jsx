@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 import "./UserLinks.css";
+import FontAwesome from 'react-fontawesome'
 
 class UserLinks extends Component {
   getLinkElements() {
     const { userLinks } = this.props.config;
     const { labeled } = this.props;
     return userLinks.map(link => (
-      <button key={link.label} href={link.url}>
-        {labeled ? link.label : ""}
-      </button>
+      <a target='_blank' className='buttons' href={link.url} key={link.label}>
+        <FontAwesome size='3x' name={link.iconClassName} href={link.url} key={link.label} />
+        <span>{labeled ? link.label : ""}</span>
+      </a>
     ));
   }
   render() {

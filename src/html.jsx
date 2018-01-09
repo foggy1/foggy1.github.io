@@ -35,6 +35,7 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1.0"
           />
           {this.props.headComponents}
+          <script src="https://use.fontawesome.com/388bf50239.js"></script>
           <link rel="shortcut icon" href={favicon} />
           {css}
         </head>

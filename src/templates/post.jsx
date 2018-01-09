@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import UserInfo from "../components/UserInfo/UserInfo";
+import UserLinks from '../components/UserLinks/UserLinks'
 import Disqus from "../components/Disqus/Disqus";
 import PostTags from "../components/PostTags/PostTags";
 import SocialLinks from "../components/SocialLinks/SocialLinks";
@@ -27,6 +28,7 @@ export default class PostTemplate extends React.Component {
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <div>
+          <UserLinks config={config} />
           <h1>{post.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
           <div className="post-meta">
@@ -34,7 +36,6 @@ export default class PostTemplate extends React.Component {
             <SocialLinks postPath={slug} postNode={postNode} />
           </div>
           <UserInfo config={config} />
-          <Disqus postNode={postNode} />
         </div>
       </div>
     );
