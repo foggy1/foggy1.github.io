@@ -20,9 +20,14 @@ module.exports = {
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/austin-lanari/",
+      iconClassName: "linkedin"
+    },
+    {
       label: "GitHub",
       url: "https://github.com/foggy1",
-      iconClassName: "github"
+      iconClassName: "github-alt"
     },
     {
       label: "Twitter",

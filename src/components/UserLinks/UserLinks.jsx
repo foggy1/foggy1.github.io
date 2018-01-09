@@ -7,7 +7,7 @@ class UserLinks extends Component {
     const { userLinks } = this.props.config;
     const { labeled } = this.props;
     return userLinks.map(link => (
-      <a className='buttons' href={link.url} key={link.label}>
+      <a target='_blank' className='buttons' href={link.url} key={link.label}>
         <FontAwesome size='3x' name={link.iconClassName} href={link.url} key={link.label} />
         <span>{labeled ? link.label : ""}</span>
       </a>
