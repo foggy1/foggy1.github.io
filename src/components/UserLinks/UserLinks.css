@@ -1,7 +1,18 @@
 .user-links {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    max-width: 100%;
+    min-width: 25%;
+    max-width: 33%;
+    margin: auto;
+}
+
+.buttons {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:active {
+	color: darkorange;
 }
