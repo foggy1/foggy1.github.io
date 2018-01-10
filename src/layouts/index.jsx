@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
+import UserLinks from '../components/UserLinks/UserLinks'
 import "./index.css";
 
 export default class MainLayout extends React.Component {
@@ -46,6 +47,19 @@ export default class MainLayout extends React.Component {
           <title>{`${config.siteTitle} |  ${this.getLocalTitle()}`}</title>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
+        <nav className="navbar" role="navigation" aria-label="main navigation">
+          <div className="navbar-brand">
+            <a className="navbar-item" href="https://bulma.io">
+              <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
+            </a>
+            <UserLinks config={config} />
+            <button className="button navbar-burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </nav>
         {children()}
       </div>
     );

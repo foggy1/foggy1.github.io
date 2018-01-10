@@ -4,6 +4,7 @@ import PostListing from "../components/PostListing/PostListing";
 import UserLinks from '../components/UserLinks/UserLinks'
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
+import bulma from 'bulma'
 
 class Index extends React.Component {
   render() {
@@ -12,7 +13,6 @@ class Index extends React.Component {
       <div className="index-container">
         <Helmet title={config.siteTitle} />
         <SEO postEdges={postEdges} />
-        <UserLinks config={config} />
         <PostListing postEdges={postEdges} />
       </div>
     );

@@ -1,25 +1,22 @@
 import React, { Component } from "react";
-import "./UserLinks.css";
 import FontAwesome from 'react-fontawesome'
 
-class UserLinks extends Component {
-  getLinkElements() {
-    const { userLinks } = this.props.config;
-    const { labeled } = this.props;
+const UserLinks = props => {
+  const getLinkElements = () => {
+    const { userLinks } = props.config;
+    const { labeled } = props;
     return userLinks.map(link => (
-      <a target='_blank' className='buttons' href={link.url} key={link.label}>
-        <FontAwesome size='3x' name={link.iconClassName} href={link.url} key={link.label} />
+      <a target='_blank' className='navbar-item' href={link.url} key={link.label}>
+        <FontAwesome name={link.iconClassName} href={link.url} key={link.label} />
         <span>{labeled ? link.label : ""}</span>
       </a>
     ));
   }
-  render() {
-    const { userLinks } = this.props.config;
-    if (!userLinks) {
-      return null;
-    }
-    return <div className="user-links">{this.getLinkElements()}</div>;
+  const { userLinks } = props.config;
+  if (!userLinks) {
+    return null;
   }
+  return <React.Fragment>{getLinkElements()}</React.Fragment>
 }
 
 export default UserLinks;
