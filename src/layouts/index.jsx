@@ -1,6 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
+import Link from 'gatsby-link'
+import UserLinks from '../components/UserLinks/UserLinks'
 import "./index.css";
 
 export default class MainLayout extends React.Component {
@@ -46,6 +48,28 @@ export default class MainLayout extends React.Component {
           <title>{`${config.siteTitle} |  ${this.getLocalTitle()}`}</title>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
+        <section className="hero is-primary is-bold">
+          <div className='hero-head'>
+            <nav className="navbar" role="navigation" aria-label="main navigation">
+              <div className="navbar-brand">
+                <Link className="navbar-item" to="/">
+                  Home
+                </Link>
+                <UserLinks config={config} />
+              </div>
+            </nav>
+          </div>
+          <div className="hero-body">
+            <div className="container">
+              <h1 className="title">
+                {config.siteTitle}
+              </h1>
+              <h2 className="subtitle">
+                {config.siteDescription}
+              </h2>
+            </div>
+          </div>
+        </section>
         {children()}
       </div>
     );
