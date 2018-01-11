@@ -50,14 +50,14 @@ export default class MainLayout extends React.Component {
         </Helmet>
         <section className="hero is-primary is-bold">
           <div className='hero-head'>
-                  <nav className="navbar" role="navigation" aria-label="main navigation">
-          <div className="navbar-brand">
-            <Link className="navbar-item" to="/">
-              Home
-            </Link>
-            <UserLinks config={config} />
-          </div>
-        </nav>
+            <nav className="navbar" role="navigation" aria-label="main navigation">
+              <div className="navbar-brand">
+                <Link className="navbar-item" to="/">
+                  Home
+                </Link>
+                <UserLinks config={config} />
+              </div>
+            </nav>
           </div>
           <div className="hero-body">
             <div className="container">
