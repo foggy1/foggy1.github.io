@@ -22,6 +22,7 @@ class PostListing extends React.Component {
     return (
       <div className='section'>
         <div className='container'>
+          <h1 className='title'>Blog</h1>
           <ul className='columns is-multiline'>
             {/* Your post list here. */
             postList.map(post => (

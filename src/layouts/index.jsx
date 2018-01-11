@@ -70,7 +70,6 @@ export default class MainLayout extends React.Component {
             </div>
           </div>
         </section>
-
         {children()}
       </div>
     );
