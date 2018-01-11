@@ -48,7 +48,7 @@ export default class MainLayout extends React.Component {
           <title>{`${config.siteTitle} |  ${this.getLocalTitle()}`}</title>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
-        <section className="hero is-primary is-medium is-bold">
+        <section className="hero is-primary is-bold">
           <div className='hero-head'>
                   <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
