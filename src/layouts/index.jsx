@@ -54,11 +54,6 @@ export default class MainLayout extends React.Component {
               Foggy
             </Link>
             <UserLinks config={config} />
-            <button className="button navbar-burger">
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
           </div>
         </nav>
         {children()}
