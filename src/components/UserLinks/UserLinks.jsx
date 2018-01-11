@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import FontAwesome from 'react-fontawesome'
 
 const UserLinks = props => {
   const getLinkElements = () => {
@@ -7,7 +6,9 @@ const UserLinks = props => {
     const { labeled } = props;
     return userLinks.map(link => (
       <a target='_blank' className='navbar-item' href={link.url} key={link.label}>
-        <FontAwesome name={link.iconClassName} href={link.url} key={link.label} />
+        <span class="icon is-small">
+        <i className={link.iconClassName} />
+        </span>
         <span>{labeled ? link.label : ""}</span>
       </a>
     ));

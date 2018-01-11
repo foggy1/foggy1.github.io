@@ -22,22 +22,22 @@ module.exports = {
     {
       label: "LinkedIn",
       url: "https://www.linkedin.com/in/austin-lanari/",
-      iconClassName: "linkedin"
+      iconClassName: "fab fa-linkedin"
     },
     {
       label: "GitHub",
       url: "https://github.com/foggy1",
-      iconClassName: "github-alt"
+      iconClassName: "fab fa-github-alt"
     },
     {
       label: "Twitter",
       url: "https://twitter.com/AustinLanari",
-      iconClassName: "twitter"
+      iconClassName: "fab fa-twitter"
     },
     {
       label: "Email",
       url: "mailto:austin.lanari@gmail.com",
-      iconClassName: "envelope"
+      iconClassName: "fas fa-envelope"
     }
   ],
   copyright: "Copyright © 2017. Austin Lanari", // Copyright string for the footer of the website and RSS feed.
