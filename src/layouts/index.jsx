@@ -48,14 +48,29 @@ export default class MainLayout extends React.Component {
           <title>{`${config.siteTitle} |  ${this.getLocalTitle()}`}</title>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
-        <nav className="navbar" role="navigation" aria-label="main navigation">
+        <section className="hero is-primary is-medium is-bold">
+          <div className='hero-head'>
+                  <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
             <Link className="navbar-item" to="/">
-              Foggy
+              Home
             </Link>
             <UserLinks config={config} />
           </div>
         </nav>
+          </div>
+          <div className="hero-body">
+            <div className="container">
+              <h1 className="title">
+                {config.siteTitle}
+              </h1>
+              <h2 className="subtitle">
+                {config.siteDescription}
+              </h2>
+            </div>
+          </div>
+        </section>
+
         {children()}
       </div>
     );

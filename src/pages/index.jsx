@@ -13,18 +13,7 @@ class Index extends React.Component {
       <div className="index-container">
         <Helmet title={config.siteTitle} />
         <SEO postEdges={postEdges} />
-        <section className="hero is-primary is-bold">
-          <div className="hero-body">
-            <div className="container">
-              <h1 className="title">
-                {config.siteTitle}
-              </h1>
-              <h2 className="subtitle">
-                {config.siteDescription}
-              </h2>
-            </div>
-          </div>
-        </section>
+        
         <PostListing postEdges={postEdges} />
       </div>
     );
