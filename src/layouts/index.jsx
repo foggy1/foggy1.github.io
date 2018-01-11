@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
+import Link from 'gatsby-link'
 import UserLinks from '../components/UserLinks/UserLinks'
 import "./index.css";
 
@@ -49,9 +50,9 @@ export default class MainLayout extends React.Component {
         </Helmet>
         <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
-            <a className="navbar-item" href="https://austinlanari.com">
+            <Link className="navbar-item" to="/">
               Foggy
-            </a>
+            </Link>
             <UserLinks config={config} />
             <button className="button navbar-burger">
               <span></span>
