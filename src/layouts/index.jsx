@@ -4,6 +4,8 @@ import config from "../../data/SiteConfig";
 import Link from 'gatsby-link'
 import UserLinks from '../components/UserLinks/UserLinks'
 import "./index.css";
+import './extend_bulma.scss'
+
 
 export default class MainLayout extends React.Component {
   getLocalTitle() {
