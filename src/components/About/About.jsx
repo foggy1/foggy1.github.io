@@ -9,7 +9,7 @@ class About extends Component {
           <h1 className='title'>About</h1>
           <div className='content'>
             <p>I'm <strong>Austin Lanari</strong>. It says it right up there.
-             I like comics and I like coding. Again, up there.</p>
+             <a target='_blank' href='https://fuckupsomecomics.com/'> I like comics</a> and I like coding. Again, up there.</p>
           </div>
         </div>
       </section>
