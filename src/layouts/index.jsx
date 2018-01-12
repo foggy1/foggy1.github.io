@@ -4,6 +4,8 @@ import config from "../../data/SiteConfig";
 import Link from 'gatsby-link'
 import UserLinks from '../components/UserLinks/UserLinks'
 import "./index.css";
+import './extend_bulma.scss'
+
 
 export default class MainLayout extends React.Component {
   getLocalTitle() {
@@ -69,8 +71,28 @@ export default class MainLayout extends React.Component {
               </h2>
             </div>
           </div>
+          <div className="hero-foot">
+            <nav className="tabs">
+              <div className="container">
+                <ul>
+                  <li><Link to='/'>Blog</Link></li>
+                  <li><Link to='/about'>About</Link></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </section>
         {children()}
+        <footer className="footer">
+          <div className="container">
+            <div className="content has-text-centered">
+              <p>
+                Website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY NC SA 4.0</a> Austin Lanari.
+                Website code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+              </p>
+            </div>
+          </div>
+        </footer>
       </div>
     );
   }

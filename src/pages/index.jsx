@@ -4,7 +4,6 @@ import PostListing from "../components/PostListing/PostListing";
 import UserLinks from '../components/UserLinks/UserLinks'
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
-import bulma from 'bulma'
 
 class Index extends React.Component {
   render() {
