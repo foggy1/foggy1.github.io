@@ -69,6 +69,16 @@ export default class MainLayout extends React.Component {
               </h2>
             </div>
           </div>
+          <div className="hero-foot">
+            <nav className="tabs">
+              <div className="container">
+                <ul>
+                  <li><Link to='/'>Blog</Link></li>
+                  <li><Link to='/about'>About</Link></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </section>
         {children()}
         <footer className="footer">
