@@ -1,47 +1,17 @@
-import React from "react";
+import React, { Component } from "react";
 import Helmet from "react-helmet";
-import PostListing from "../components/PostListing/PostListing";
-import UserLinks from '../components/UserLinks/UserLinks'
-import SEO from "../components/SEO/SEO";
+import Portfolio from "../components/Portfolio/Portfolio";
 import config from "../../data/SiteConfig";
 
-class Index extends React.Component {
+class PortfolioPage extends Component {
   render() {
-    const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
-      <div className="index-container">
-        <Helmet title={config.siteTitle} />
-        <SEO postEdges={postEdges} />
-        <PostListing postEdges={postEdges} />
+      <div className="portfolio-container">
+        <Helmet title={`${config.siteTitle}`} />
+        <Portfolio />
       </div>
     );
   }
 }
 
-export default Index;
-
-/* eslint no-undef: "off"*/
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(
-      limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          excerpt
-          timeToRead
-          frontmatter {
-            title
-            tags
-            cover
-            date
-          }
-        }
-      }
-    }
-  }
-`;
+export default PortfolioPage;

@@ -25,6 +25,8 @@ export default class MainLayout extends React.Component {
       title = "Categories";
     } else if (currentPath === "about/") {
       title = "About";
+    } else if (currentPath === 'blog/') {
+      title = 'Blog'
     } else if (currentPath.indexOf("posts")) {
       title = "Article";
     } else if (currentPath.indexOf("tags/")) {
@@ -75,7 +77,8 @@ export default class MainLayout extends React.Component {
             <nav className="tabs">
               <div className="container">
                 <ul>
-                  <li><Link to='/'>Blog</Link></li>
+                  <li><Link to='/'>Portfolio</Link></li>
+                  <li><Link to='/blog'>Blog</Link></li>
                   <li><Link to='/about'>About</Link></li>
                 </ul>
               </div>
