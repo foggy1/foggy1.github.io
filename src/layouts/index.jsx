@@ -45,7 +45,7 @@ export default class MainLayout extends React.Component {
   render() {
     const { children } = this.props;
     return (
-      <div>
+      <div class='main'>
         <Helmet>
           <title>{`${config.siteTitle} |  ${this.getLocalTitle()}`}</title>
           <meta name="description" content={config.siteDescription} />
@@ -82,7 +82,9 @@ export default class MainLayout extends React.Component {
             </nav>
           </div>
         </section>
-        {children()}
+        <div style={{flex: 1}}>
+          {children()}
+        </div>
         <footer className="footer">
           <div className="container">
             <div className="content has-text-centered">
