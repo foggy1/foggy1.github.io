@@ -3,9 +3,10 @@ import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 import Link from 'gatsby-link'
 import UserLinks from '../components/UserLinks/UserLinks'
+import Img from 'gatsby-image'
+import get from 'lodash/get'
 import "./index.css";
 import './extend_bulma.scss'
-
 
 export default class MainLayout extends React.Component {
   getLocalTitle() {
@@ -46,6 +47,7 @@ export default class MainLayout extends React.Component {
   }
   render() {
     const { children } = this.props;
+    const image = get(this, 'props.data.imageSharp.resolutions')
     return (
       <div class='main'>
         <Helmet>
@@ -56,8 +58,21 @@ export default class MainLayout extends React.Component {
           <div className='hero-head'>
             <nav className="navbar" role="navigation" aria-label="main navigation">
               <div className="navbar-brand">
-                <Link className="navbar-item" to="/">
-                  Home
+                <Link to="/">
+                  <Img
+                    alt={'Austin Lanari avatar'}
+                    title={'Austin Lanari'}
+                    resolutions={image}
+                    style={{
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      borderRadius: 50,
+                      height: 64,
+                      width: 64,
+                      marginLeft: 13,
+                      marginTop: 13
+                    }}
+                  />
                 </Link>
                 <UserLinks config={config} />
               </div>
@@ -102,3 +117,14 @@ export default class MainLayout extends React.Component {
     );
   }
 }
+
+/* eslint no-undef: "off"*/
+export const pageQuery = graphql`
+  query thing {
+  imageSharp {
+    resolutions(height: 128, width: 128) {
+      ...GatsbyImageSharpResolutions_withWebp
+    }
+  }
+}
+`

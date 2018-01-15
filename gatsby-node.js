@@ -3,6 +3,7 @@ const _ = require("lodash");
 const webpackLodashPlugin = require("lodash-webpack-plugin");
 
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
+  console.log(node)
   const { createNodeField } = boundActionCreators;
   let slug;
   if (node.internal.type === "MarkdownRemark") {
