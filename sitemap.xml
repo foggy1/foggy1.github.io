@@ -6,5 +6,6 @@
 <url> <loc>https://austinlanari.com/tags/personal/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://austinlanari.com/categories/site/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://austinlanari.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austinlanari.com/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://austinlanari.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
