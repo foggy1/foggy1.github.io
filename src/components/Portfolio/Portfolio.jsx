@@ -25,19 +25,74 @@ class About extends Component {
               Subtitle
             </h2>
             <div className='columns is-mobile is-centered'>
-              <div className='column is-half-mobile is-narrow is-mobile'>
+              <div className='column is-three-quarters-mobile is-narrow is-mobile'>
                 <ul className='columns is-multiline is-mobile'>
-                <li className='column is-half-mobile'><img className='image is-64x64' src={graphql} /></li>
-                <li className='column is-half-mobile'><img className='image is-64x64' src={ruby} /></li>
-                <li className='column is-half-mobile'><img className='image is-64x64' src={javascript} /></li>
-                <li className='column is-half-mobile'><img className='image is-64x64' src={redux} /></li>
-                <li className='column is-half-mobile'><img className='image is-64x64' src={react} /></li>
-                <li className='column is-half-mobile'><img className='image is-64x64' src={css} /></li>
-                <li className='column is-half-mobile'><img className='image is-64x64' src={html} /></li>
-                <li className='column is-half-mobile'><img className='image is-64x64' src={gatsby} /></li>
-                <li className='column is-half-mobile'><img className='image is-64x64' src={lambda} /></li>
-                <li className='column is-half-mobile'><img className='image is-64x64' src={rails} /></li>
-                <li className='column is-half-mobile'><img className='image is-64x64' src={sass} /></li>
+                  <li className='column is-one-third-mobile'>
+                    <img style={{margin: 'auto'}}
+                      className='image is-48x48'
+                      src={graphql}
+                    />
+                  </li>
+                  <li className='column is-one-third-mobile'>
+                    <img style={{margin: 'auto'}}
+                      className='image is-48x48'
+                      src={ruby}
+                    />
+                  </li>
+                  <li className='column is-one-third-mobile'>
+                    <img style={{margin: 'auto'}}
+                      className='image is-48x48'
+                      src={javascript}
+                    />
+                  </li>
+                  <li className='column is-one-third-mobile'>
+                    <img style={{margin: 'auto'}}
+                      className='image is-48x48'
+                      src={redux}
+                    />
+                  </li>
+                  <li className='column is-one-third-mobile'>
+                    <img style={{margin: 'auto'}}
+                      className='image is-48x48'
+                      src={react}
+                    />
+                  </li>
+                  <li className='column is-one-third-mobile'>
+                    <img style={{margin: 'auto'}}
+                      className='image is-48x48'
+                      src={css}
+                    />
+                  </li>
+                  <li className='column is-one-third-mobile'>
+                    <img style={{margin: 'auto'}}
+                      className='image is-48x48'
+                      src={html}
+                    />
+                  </li>
+                  <li className='column is-one-third-mobile'>
+                    <img style={{margin: 'auto'}}
+                      className='image is-48x48'
+                      src={gatsby}
+                    />
+                  </li>
+                  <li className='column is-one-third-mobile'>
+                    <img style={{margin: 'auto'}}
+                      className='image is-48x48'
+                      src={lambda}
+                    />
+                  </li>
+                  <li className='column is-one-third-mobile'>
+                    <img style={{margin: 'auto'}}
+                      className='image is-48x48'
+                      src={rails}
+                    />
+                  </li>
+                  <li className='column is-one-third-mobile'>
+                    <img style={{margin: 'auto'}}
+                      className='image is-48x48'
+                      src={sass}
+                    />
+                  </li>
                 </ul>
               </div>
             </div>
