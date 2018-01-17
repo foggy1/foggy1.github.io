@@ -7,6 +7,7 @@ import Img from 'gatsby-image'
 import get from 'lodash/get'
 import "./index.css";
 import './extend_bulma.scss'
+import image from './austin_lanari_avatar.jpg'
 
 export default class MainLayout extends React.Component {
   getLocalTitle() {
@@ -48,12 +49,11 @@ export default class MainLayout extends React.Component {
   }
   render() {
     const { children } = this.props;
-    const image = get(this, 'props.data.imageSharp.resolutions')
+    // const image = get(this, 'props.data.imageSharp.resolutions')
     const currentPath = this.props.location.pathname
     const portfolioActive = currentPath === '/'
     const blogActive = currentPath === '/blog'
     const aboutActive = currentPath === '/about'
-    console.log('HEY', portfolioActive, currentPath, blogActive)
     return (
       <div class='main'>
         <Helmet>
@@ -65,10 +65,10 @@ export default class MainLayout extends React.Component {
             <nav className="navbar" role="navigation" aria-label="main navigation">
               <div className="navbar-brand">
                 <Link to="/">
-                  <Img
+                  <img
                     alt={'Austin Lanari avatar'}
                     title={'Austin Lanari'}
-                    resolutions={image}
+                    src={image}
                     style={{
                       justifyContent: 'center',
                       alignItems: 'center',
@@ -95,12 +95,12 @@ export default class MainLayout extends React.Component {
             </div>
           </div>
           <div className="hero-foot">
-            <nav className="tabs is-boxed">
+            <nav className="tabs">
               <div className="container">
                 <ul>
-                  <li className={portfolioActive ? 'is-active' : ''}><Link to='/'>Portfolio</Link></li>
-                  <li className={blogActive ? 'is-active' : ''}><Link to='/blog'>Blog</Link></li>
-                  <li className={aboutActive ? 'is-active' : ''}><Link to='/about'>About</Link></li>
+                  <li><Link to='/'>Portfolio</Link></li>
+                  <li><Link to='/blog'>Blog</Link></li>
+                  <li><Link to='/about'>About</Link></li>
                 </ul>
               </div>
             </nav>
@@ -129,7 +129,7 @@ export const pageQuery = graphql`
   query thing {
   imageSharp {
     resolutions(height: 128, width: 128) {
-      ...GatsbyImageSharpResolutions_withWebp
+      ...GatsbyImageSharpResolutions
     }
   }
 }
