@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import Helmet from "react-helmet";
 import Portfolio from "../components/Portfolio/Portfolio";
 import config from "../../data/SiteConfig";
@@ -6,10 +6,10 @@ import config from "../../data/SiteConfig";
 class PortfolioPage extends Component {
   render() {
     return (
-      <div className="portfolio-container">
+      <Fragment>
         <Helmet title={`${config.siteTitle}`} />
         <Portfolio />
-      </div>
+      </Fragment>
     );
   }
 }
