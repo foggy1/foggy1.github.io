@@ -5,9 +5,9 @@ import Link from 'gatsby-link'
 import UserLinks from '../components/UserLinks/UserLinks'
 import Img from 'gatsby-image'
 import get from 'lodash/get'
-import "./index.css";
+// import "./index.css";
 import './extend_bulma.scss'
-import image from './austin_lanari_avatar.jpg'
+// import image from './austin_lanari_avatar.jpg'
 
 export default class MainLayout extends React.Component {
   getLocalTitle() {
@@ -55,7 +55,7 @@ export default class MainLayout extends React.Component {
     const blogActive = currentPath === '/blog'
     const aboutActive = currentPath === '/about'
     return (
-      <div class='main'>
+      <div>
         <Helmet>
           <title>{`${config.siteTitle} |  ${this.getLocalTitle()}`}</title>
           <meta name="description" content={config.siteDescription} />
@@ -69,7 +69,7 @@ export default class MainLayout extends React.Component {
                     className='image is-64x64' 
                     alt={'Austin Lanari avatar'}
                     title={'Austin Lanari'}
-                    sizes={image}
+                    resolutions={this.props.data.avatar.resolutions}
                     // src={image}
                     style={{
                       justifyContent: 'center',
@@ -128,17 +128,19 @@ export default class MainLayout extends React.Component {
 
 /* eslint no-undef: "off"*/
 export const pageQuery = graphql`
-  query thing {
-  imageSharp {
-    sizes(maxWidth: 128) {
+query GatsbyImageSampleQuery {
+    avatar: imageSharp(id: { regex: "/austin/"}) {
+    resolutions(width: 128, height: 128) {
       base64
       aspectRatio
+      width
+      height
       src
       srcSet
-      sizes
-      originalImg
+      srcWebp
+      srcSetWebp
       originalName
     }
   }
-}
+  }
 `

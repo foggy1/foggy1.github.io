@@ -4179,7 +4179,7 @@ gatsby-cli@^1.1.28:
     yargs "^8.0.2"
     yurnalist "^0.2.1"
 
-gatsby-image@^1.0.33:
+gatsby-image@latest:
   version "1.0.33"
   resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-1.0.33.tgz#eadc5eebc4f0f2d98b1dc762eb35dec0c6197e0b"
   dependencies:
@@ -9568,7 +9568,7 @@ replace-ext@1.0.0, replace-ext@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
 
-request@2, request@~2.79.0:
+request@2, request@^2.65.0, request@~2.79.0:
   version "2.79.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.79.0.tgz#4dfe5bf6be8b8cdc37fcf93e04b65577722710de"
   dependencies:
@@ -9593,7 +9593,7 @@ request@2, request@~2.79.0:
     tunnel-agent "~0.4.1"
     uuid "^3.0.0"
 
-request@^2.58.0, request@^2.65.0, request@^2.67.0, request@^2.74.0, request@^2.81.0:
+request@^2.58.0, request@^2.67.0, request@^2.74.0, request@^2.81.0:
   version "2.83.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.83.0.tgz#ca0b65da02ed62935887808e6f510381034e3356"
   dependencies:
