@@ -49,7 +49,7 @@ export default class MainLayout extends React.Component {
   }
   render() {
     const { children } = this.props;
-    // const image = get(this, 'props.data.imageSharp.resolutions')
+    const image = get(this, 'props.data.imageSharp.sizes')
     const currentPath = this.props.location.pathname
     const portfolioActive = currentPath === '/'
     const blogActive = currentPath === '/blog'
@@ -65,10 +65,12 @@ export default class MainLayout extends React.Component {
             <nav className="navbar" role="navigation" aria-label="main navigation">
               <div className="navbar-brand">
                 <Link to="/">
-                  <img
+                  <Img
+                    className='image is-64x64' 
                     alt={'Austin Lanari avatar'}
                     title={'Austin Lanari'}
-                    src={image}
+                    sizes={image}
+                    // src={image}
                     style={{
                       justifyContent: 'center',
                       alignItems: 'center',
@@ -128,8 +130,14 @@ export default class MainLayout extends React.Component {
 export const pageQuery = graphql`
   query thing {
   imageSharp {
-    resolutions(height: 128, width: 128) {
-      ...GatsbyImageSharpResolutions
+    sizes(maxWidth: 128) {
+      base64
+      aspectRatio
+      src
+      srcSet
+      sizes
+      originalImg
+      originalName
     }
   }
 }

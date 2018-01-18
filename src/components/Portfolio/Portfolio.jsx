@@ -34,66 +34,77 @@ class Portfolio extends Component {
                   <ul className='columns is-multiline is-mobile'>
                     <li className='column is-one-third-mobile'>
                       <img style={{margin: 'auto'}}
+                        alt='javascript'
                         className='image is-48x48'
                         src={javascript}
                       />
                     </li>
                     <li className='column is-one-third-mobile'>
                       <img style={{margin: 'auto'}}
+                        alt='ruby'
                         className='image is-48x48'
                         src={ruby}
                       />
                     </li>
                     <li className='column is-one-third-mobile'>
                       <img style={{margin: 'auto'}}
+                        alt='react'
                         className='image is-48x48'
                         src={react}
                       />
                     </li>
                     <li className='column is-one-third-mobile'>
                       <img style={{margin: 'auto'}}
+                        alt='rails'
                         className='image is-48x48'
                         src={rails}
                       />
                     </li>
                     <li className='column is-one-third-mobile'>
                       <img style={{margin: 'auto'}}
+                        alt='html'
                         className='image is-48x48'
                         src={html}
                       />
                     </li>
                     <li className='column is-one-third-mobile'>
                       <img style={{margin: 'auto'}}
+                        alt='redux'
                         className='image is-48x48'
                         src={redux}
                       />
                     </li>
                     <li className='column is-one-third-mobile'>
                       <img style={{margin: 'auto'}}
+                        alt='css'
                         className='image is-48x48'
                         src={css}
                       />
                     </li>
                     <li className='column is-one-third-mobile'>
                       <img style={{margin: 'auto'}}
+                        alt='lambda'
                         className='image is-48x48'
                         src={lambda}
                       />
                     </li>
                     <li className='column is-one-third-mobile'>
                       <img style={{margin: 'auto'}}
+                        alt='gatsby'
                         className='image is-48x48'
                         src={gatsby}
                       />
                     </li>
                     <li className='column is-one-third-mobile'>
                       <img style={{margin: 'auto'}}
+                        alt='graphql'
                         className='image is-48x48'
                         src={graphql}
                       />
                     </li>
                     <li className='column is-one-third-mobile'>
                       <img style={{margin: 'auto'}}
+                        alt='sass'
                         className='image is-48x48'
                         src={sass}
                       />
