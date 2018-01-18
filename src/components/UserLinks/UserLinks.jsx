@@ -6,7 +6,7 @@ const UserLinks = props => {
     const { labeled } = props;
     return userLinks.map(link => (
       <a rel="noopener" target="_blank" className='navbar-item' href={link.url} key={link.label}>
-        <span class="icon is-small">
+        <span className="icon is-small">
           <i className={link.iconClassName} />
         </span>
         <span>{labeled ? link.label : ""}</span>
