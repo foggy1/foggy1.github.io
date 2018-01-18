@@ -73,7 +73,7 @@ module.exports = {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: config.siteTitle,
-        short_name: config.siteTitle,
+        short_name: config.shortName,
         description: config.siteDescription,
         start_url: config.pathPrefix,
         background_color: config.backgroundColor,
@@ -94,12 +94,6 @@ module.exports = {
       }
     },
     "gatsby-plugin-offline",
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
     {
       resolve: "gatsby-plugin-feed",
       options: {
