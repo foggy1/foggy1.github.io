@@ -95,6 +95,17 @@ module.exports = {
     },
     "gatsby-plugin-offline",
     {
+      resolve: 'gatsby-plugin-purify-css',
+      options: {
+        /* Defaults */
+        styleId: 'gatsby-inlined-css',
+        purifyOptions: {
+          info: true,
+          minify: true
+        }
+      }
+    },
+    {
       resolve: "gatsby-plugin-feed",
       options: {
         setup(ref) {
