@@ -4,10 +4,7 @@ import config from "../../data/SiteConfig";
 import Link from 'gatsby-link'
 import UserLinks from '../components/UserLinks/UserLinks'
 import Img from 'gatsby-image'
-import get from 'lodash/get'
-// import "./index.css";
 import './extend_bulma.scss'
-// import image from './austin_lanari_avatar.jpg'
 
 export default class MainLayout extends React.Component {
   getLocalTitle() {
@@ -49,11 +46,7 @@ export default class MainLayout extends React.Component {
   }
   render() {
     const { children } = this.props;
-    const image = get(this, 'props.data.imageSharp.sizes')
     const currentPath = this.props.location.pathname
-    const portfolioActive = currentPath === '/'
-    const blogActive = currentPath === '/blog'
-    const aboutActive = currentPath === '/about'
     return (
       <div>
         <Helmet>
