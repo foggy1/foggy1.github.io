@@ -21,7 +21,7 @@
     "gatsby-plugin-sharp": "latest",
     "gatsby-plugin-sitemap": "^1.2.9",
     "gatsby-plugin-twitter": "^1.0.14",
-    "gatsby-plugin-typography": "^1.7.10",
+    "gatsby-plugin-typography": "latest",
     "gatsby-remark-autolink-headers": "^1.4.11",
     "gatsby-remark-copy-linked-files": "latest",
     "gatsby-remark-images": "latest",
@@ -38,7 +38,8 @@
     "react-dom": "^16.2.0",
     "react-helmet": "^5.2.0",
     "react-share": "^1.19.0",
-    "react-twitter-widgets": "^1.7.1"
+    "react-twitter-widgets": "^1.7.1",
+    "typography-theme-grand-view": "^0.15.10"
   },
   "devDependencies": {
     "cli-glob": "^0.1.0",
