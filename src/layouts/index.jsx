@@ -5,6 +5,7 @@ import Link from 'gatsby-link'
 import UserLinks from '../components/UserLinks/UserLinks'
 import Img from 'gatsby-image'
 import './extend_bulma.scss'
+import './index.css'
 
 export default class MainLayout extends React.Component {
   getLocalTitle() {
@@ -48,7 +49,7 @@ export default class MainLayout extends React.Component {
     const { children } = this.props;
     const currentPath = this.props.location.pathname
     return (
-      <div>
+      <div className='main'>
         <Helmet>
           <title>{`${config.siteTitle} |  ${this.getLocalTitle()}`}</title>
           <meta name="description" content={config.siteDescription} />
