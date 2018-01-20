@@ -6,10 +6,20 @@ class UserInfo extends Component {
     const { userTwitter } = this.props.config;
     const { expanded } = this.props;
     return (
-      <Follow
-        username={userTwitter}
-        options={{ count: expanded ? true : "none" }}
-      />
+      <a
+        href={`https://twitter.com/${userTwitter}`}
+        // username={userTwitter}
+        // options={{ count: expanded ? true : "none" }}
+        style={{backgroundColor: 'rgb(29, 161, 242)'}}
+        target='_blank'
+        rel='noopener'
+        className='button'
+      > 
+        <span class="icon">
+          <i style={{color: 'white'}} class="fab fa-twitter"></i>
+        </span>
+        <span style={{color: 'white'}}>Follow on Twitter</span>
+      </a>
     );
   }
 }

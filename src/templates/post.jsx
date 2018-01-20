@@ -31,13 +31,12 @@ export default class PostTemplate extends React.Component {
           <div className='container'>
             <h1 className='title'>{post.title}</h1>
             <div className='content' dangerouslySetInnerHTML={{ __html: postNode.html }} />
+            <UserInfo className='section' config={config} />
           </div>
-
           <div className="section post-meta">
             <PostTags tags={post.tags} />
             <SocialLinks postPath={slug} postNode={postNode} />
           </div>
-          <UserInfo className='section' config={config} />
         </div>
       </div>
     );
