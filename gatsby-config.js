@@ -107,7 +107,11 @@ module.exports = {
         styleId: 'gatsby-inlined-css',
         purifyOptions: {
           info: true,
-          minify: true
+          minify: true,
+          rejected: true,
+          whitelist: [
+            ".title:not(.is-spaced) + .subtitle"
+          ]
         }
       }
     },
