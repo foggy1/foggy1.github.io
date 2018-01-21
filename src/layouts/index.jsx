@@ -47,7 +47,8 @@ export default class MainLayout extends React.Component {
   }
   render() {
     const { children } = this.props;
-    const currentPath = this.props.location.pathname
+    let { location } = this.props
+    location = location || {}
     return (
       <div className='main'>
         <Helmet>
@@ -91,12 +92,18 @@ export default class MainLayout extends React.Component {
             </div>
           </div>
           <div className="hero-foot">
-            <nav className="tabs">
+            <nav className="tabs is-boxed">
               <div className="container">
                 <ul>
-                  <li><Link to='/'>Portfolio</Link></li>
-                  <li><Link to='/blog'>Blog</Link></li>
-                  <li><Link to='/about'>About</Link></li>
+                  <li className={location.pathname === '/' ? 'is-active' : ''}>
+                    <Link to='/'>Portfolio</Link>
+                  </li>
+                  <li className={location.pathname === '/blog' ? 'is-active' : ''}>
+                    <Link to='/blog'>Blog</Link>
+                  </li>
+                  <li className={location.pathname === '/about' ? 'is-active' : ''}>
+                    <Link to='/about'>About</Link>
+                  </li>
                 </ul>
               </div>
             </nav>
