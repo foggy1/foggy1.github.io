@@ -15,19 +15,20 @@ class Portfolio extends Component {
   render() {
     return (
       <Fragment>
-        {/*<section className='hero is-light is-medium'>
+              <section className='hero is-light is-small'>
           <div className='hero-body'>
             <div className='container has-text-centered'>
-              <p>I currently work for a small startup as a Junior Software Engineer.
+              <p>I work for a small startup in a full-stack role where I help acquire data, build the API to surface it, the infrastructure to host it, and the cross-platform mobile app to deliver it to users.
+
               </p>
             </div>
           </div>
-        </section>*/}
+        </section>
         <section className="hero is-dark">
           <div className='hero-body'>
             <div className="container has-text-centered">
               <h2 className="subtitle">
-                I'm a Full-Stack Web Developer
+                I know stuff.
               </h2>
               <div className='columns is-mobile is-centered'>
                 <div className='column is-three-quarters-mobile is-narrow is-mobile'>
@@ -110,9 +111,6 @@ class Portfolio extends Component {
                       />
                     </li>
                   </ul>
-                  <h2 className="subtitle">
-                    I know stuff.
-                  </h2>
                 </div>
               </div>
             </div>
