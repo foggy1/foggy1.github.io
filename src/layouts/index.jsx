@@ -79,6 +79,13 @@ export default class MainLayout extends React.Component {
                 </Link>
                 <UserLinks config={config} />
               </div>
+              <div class="navbar-end">
+                <span class="navbar-item">
+                  <a href='/documents/Austin_Lanari_Resume.pdf' class="button is-dark is-rounded is-hidden-mobile is-hidden-tablet-only">
+                    <span>Download Résumé</span>
+                  </a>
+                </span>
+              </div>
             </nav>
           </div>
           <div className="hero-body">

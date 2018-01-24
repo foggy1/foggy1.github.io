@@ -113,6 +113,16 @@ class Portfolio extends Component {
                   </ul>
                 </div>
               </div>
+                <a href='/documents/Austin_Lanari_Resume.pdf' class="button is-primary is-rounded is-hidden-desktop">
+                  <span>Download Résumé</span>
+                </a>
+            </div>
+          </div>
+        </section>
+        <section className='hero is-light'>
+          <div className='hero-body'>
+            <div className='container has-text-centered'>
+              <h1 className='title'>List of projects coming soon!</h1>
             </div>
           </div>
         </section>
