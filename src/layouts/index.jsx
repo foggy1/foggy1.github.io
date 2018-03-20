@@ -20,6 +20,8 @@ export default class MainLayout extends React.Component {
     let active = ''
     if (currentPath === "") {
       title = "Home";
+    } else if (currentPath === "peanuts/") {
+      title = "Peanuts";
     } else if (currentPath === "tags/") {
       title = "Tags";
     } else if (currentPath === "categories/") {
@@ -49,6 +51,18 @@ export default class MainLayout extends React.Component {
     const { children } = this.props;
     let { location } = this.props
     location = location || {}
+    if (location.pathname && location.pathname === '/peanuts') {
+      return (
+        <div style={{width: '100%', flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+          <Img
+            className='image'
+            alt={'Austin Lanari avatar'}
+            title={'Austin Lanari'}
+            resolutions={this.props.data.peanuts.resolutions}
+          />
+        </div>
+      )
+    }
     return (
       <div className='main'>
         <Helmet>
@@ -65,7 +79,6 @@ export default class MainLayout extends React.Component {
                     alt={'Austin Lanari avatar'}
                     title={'Austin Lanari'}
                     resolutions={this.props.data.avatar.resolutions}
-                    // src={image}
                     style={{
                       justifyContent: 'center',
                       alignItems: 'center',
@@ -147,6 +160,18 @@ query GatsbyImageSampleQuery {
       srcSet
       srcWebp
       srcSetWebp
+      originalName
+    }
+  }
+    peanuts: imageSharp(id: { regex: "/Honey/"}) {
+    resolutions(width: 1680) {
+      base64
+      aspectRatio
+      width
+      height
+      src
+      srcSet
+      tracedSVG
       originalName
     }
   }
