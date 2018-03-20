@@ -1,7 +1,7 @@
 {
   "name": "personal-gatsby",
   "description": "Austin Lanari's professional website.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "Austin Lanari <austin.lanari@gmail.com>",
   "dependencies": {
     "babel-plugin-lodash": "^3.3.2",
@@ -70,7 +70,7 @@
     "build": "gatsby build",
     "build:pp": "gatsby build --prefix-paths",
     "build:gh": "npm run clean && yarn build && gh-pages -d public",
-    "clean": "rm -rf public",
+    "clean": "rm -rf public && rm -rf .cache",
     "lint:js": "eslint --ext .js,.jsx .",
     "lint:md": "remark content/posts/",
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
