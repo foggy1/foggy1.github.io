@@ -1,20 +1,28 @@
 {
   "assetsByChunkName": {
+    "path---tags-debian": [
+      "path---tags-debian-5d0875a4d65ab0fcece0.js",
+      "path---tags-debian-5d0875a4d65ab0fcece0.js.map"
+    ],
     "path---tags-personal": [
       "path---tags-personal-21bb49ce4eebfdec6af1.js",
       "path---tags-personal-21bb49ce4eebfdec6af1.js.map"
     ],
+    "path---tags-pure-os": [
+      "path---tags-pure-os-6ee02c42fbcac3f2db5e.js",
+      "path---tags-pure-os-6ee02c42fbcac3f2db5e.js.map"
+    ],
     "path---blog": [
-      "path---blog-e72e35501fa326c319e6.js",
-      "path---blog-e72e35501fa326c319e6.js.map"
+      "path---blog-91189b1ed2be2feba68a.js",
+      "path---blog-91189b1ed2be2feba68a.js.map"
     ],
     "path---": [
-      "path----0c0e404c35f64ee0be00.js",
-      "path----0c0e404c35f64ee0be00.js.map"
+      "path----704005b9a935cba132ba.js",
+      "path----704005b9a935cba132ba.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-dddb3feddfeaf0c9b043.js",
-      "component---src-layouts-index-jsx-dddb3feddfeaf0c9b043.js.map"
+      "component---src-layouts-index-jsx-9e2c7e349d41e10ba2e5.js",
+      "component---src-layouts-index-jsx-9e2c7e349d41e10ba2e5.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -44,6 +52,10 @@
       "component---src-pages-about-jsx-213c8469f13c72295ec6.js",
       "component---src-pages-about-jsx-213c8469f13c72295ec6.js.map"
     ],
+    "path---tags-free-software": [
+      "path---tags-free-software-b0542c37a5b2d8b8d1ac.js",
+      "path---tags-free-software-b0542c37a5b2d8b8d1ac.js.map"
+    ],
     "commons": [
       "commons-2abe69a44f8b6e0d5b35.js",
       "build-js-styles.css",
@@ -53,6 +65,10 @@
     "component---src-templates-tag-jsx": [
       "component---src-templates-tag-jsx-efb8e04f3891a0ba4c14.js",
       "component---src-templates-tag-jsx-efb8e04f3891a0ba4c14.js.map"
+    ],
+    "path---tags-gnu-linux": [
+      "path---tags-gnu-linux-59b758796eebb6d1f496.js",
+      "path---tags-gnu-linux-59b758796eebb6d1f496.js.map"
     ],
     "component---src-pages-blog-jsx": [
       "component---src-pages-blog-jsx-99ca97fdbce4eb150434.js",
@@ -74,11 +90,19 @@
       "component---src-pages-index-jsx-a24fcf8199835cf5db9d.js",
       "component---src-pages-index-jsx-a24fcf8199835cf5db9d.js.map"
     ],
+    "path---the-gnu-rabbit-hole": [
+      "path---the-gnu-rabbit-hole-ed449fa25361b853196e.js",
+      "path---the-gnu-rabbit-hole-ed449fa25361b853196e.js.map"
+    ],
     "app": [
-      "app-e777e323c56c823fcfac.js",
+      "app-7ae26a2043cc50ae667a.js",
       "build-js-styles.css",
-      "app-e777e323c56c823fcfac.js.map",
+      "app-7ae26a2043cc50ae667a.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---categories-programming": [
+      "path---categories-programming-193d9a141a94ffdc02e1.js",
+      "path---categories-programming-193d9a141a94ffdc02e1.js.map"
     ],
     "path---categories-site": [
       "path---categories-site-d94311925c6474dce112.js",
@@ -87,6 +111,10 @@
     "path---about": [
       "path---about-586c7e095e534a3909ec.js",
       "path---about-586c7e095e534a3909ec.js.map"
+    ],
+    "path---tags-operating-systems": [
+      "path---tags-operating-systems-3d923541d82534d8e0c7.js",
+      "path---tags-operating-systems-3d923541d82534d8e0c7.js.map"
     ]
   }
 }
